@@ -4,7 +4,7 @@ Grabs Sharepoint Sites and Users in the sites and can be modified to grab other 
 #Pre-reqs
 Add-PSSnapin Microsoft.SharePoint.Powershell
 
-#Will grab all NERC SubSites and output
+#Will grab all SubSites and output
 $spweb = Get-SPWeb "https://mysite.contoso.com/*" 
 
 #Array to grab users and sites 
